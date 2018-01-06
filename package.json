@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-restapi",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author":
+    "Aman Mittal <amandeepmittal@live.com> (http://amandeepmittal.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "mongoose": "5.0.0-rc2"
+  },
+  "devDependencies": {
+    "nodemon": "1.12.5"
+  }
+}
